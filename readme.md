@@ -8,7 +8,7 @@ This repository can be used as a basic sturucture to start off with an [Apollo G
 - Dependency Injection using [Inversify](https://www.npmjs.com/package/inversify)
 - Hot Reload with debugger(for VS Code editor) using [nodemon](https://www.npmjs.com/package/nodemon) for fast development
 - A basic structure for writing cron jobs using [node-cron](https://www.npmjs.com/package/cron)
-- A simple directory structure in line with following convention -   
+- A simple directory structure in line with following convention:
   - **Controllers**: Contain application logic and passing user input data to service.
   - **Services**: The middleware between controller and repository. Gather data from controller, performs validation and business logic, and calling repositories for data manipulation.
   - **Repositories**: Layer for interaction with models and performing DB operations.
@@ -49,10 +49,10 @@ Deploy Hasura with one-click on Heroku with the free Postgres add-on:
 docker-compose up -d graphql-engine
 ```
 
+### Create Schema in Hasura
+
 Create a simple schema via Hasura Console as shown in the demo below:
 ![Hasura GraphQL Engine Demo](assets/demo.gif)
-
-### Create Schema in Hasura
 
 Make the following schema for testing this repo (TODO: add migration to automate this)
 
