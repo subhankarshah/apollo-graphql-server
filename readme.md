@@ -9,10 +9,10 @@ This repository can be used as a basic sturucture to start off with an [Apollo G
 - Hot Reload with debugger(for VS Code editor) using [nodemon](https://www.npmjs.com/package/nodemon) for fast development
 - A basic structure for writing cron jobs using [node-cron](https://www.npmjs.com/package/cron)
 - A simple directory structure in line with following convention:
-  - **Controllers**: Contain application logic and passing user input data to service.
+  - **Controllers**: Called `resolvers` in GraphQL terminology, contain application logic and passing user input data to service.
   - **Services**: The middleware between controller and repository. Gather data from controller, performs validation and business logic, and calling repositories for data manipulation.
   - **Repositories**: Layer for interaction with models and performing DB operations.
-  - **Models**: Schema files with relationships defined.
+  - **Models**: A model is called `type` in GraphQL terminology, they are defined in schema files with relationships.
 
 [Hasura](https://hasura.io/) is a framework that provides a GraphQL query interface over a postgre database, I have used Hasura as an ORM and datasource in this project. You can use any other ORM over any other database of your choice.
 
