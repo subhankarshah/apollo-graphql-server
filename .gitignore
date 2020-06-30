@@ -1,0 +1,7 @@
+# package directories
+node_modules
+
+# other files/directories
+/dist
+*.DS_Store
+.env.production

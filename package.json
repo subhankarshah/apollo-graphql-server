@@ -1,0 +1,47 @@
+{
+  "name": "apollo-graphql-starter",
+  "version": "1.0.0",
+  "description": "apollo server with hasura as orm",
+  "main": "dist/main.js",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "lint": "npx tslint -p tsconfig.json",
+    "prebuild": "npx tslint -c tslint.json -p tsconfig.json --fix",
+    "compile": "npm run clean && npx tsc -p tsconfig.json",
+    "start": "node ./dist/main.js",
+    "dev": "npx nodemon src/main.ts",
+    "dev:debug": "npx nodemon --inspect src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/crypto-js": "^3.1.46",
+    "apollo-link-context": "^1.0.19",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.9.16",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "graphql-request": "^1.8.2",
+    "graphql-tools": "^4.0.7",
+    "inversify": "^5.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.2",
+    "@types/graphql": "^14.5.0",
+    "@types/moment-timezone": "^0.5.13",
+    "@types/node": "^13.5.1",
+    "hasura-cli": "^1.2.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.7.5"
+  }
+}
