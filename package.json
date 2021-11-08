@@ -18,7 +18,7 @@
     "@types/crypto-js": "^3.1.46",
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
-    "apollo-server": "^2.9.16",
+    "apollo-server": "^2.25.3",
     "cron": "^1.8.2",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
