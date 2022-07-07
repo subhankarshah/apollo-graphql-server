@@ -27,7 +27,7 @@
     "graphql-tools": "^4.0.7",
     "inversify": "^5.0.1",
     "lodash": "^4.17.15",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.28",
     "reflect-metadata": "^0.1.13"
   },
